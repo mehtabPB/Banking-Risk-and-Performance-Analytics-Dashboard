@@ -1,38 +1,68 @@
-# Banking-Risk-and-Performance-Analytics-Dashboard
+## Banking-Risk-and-Performance-Analytics-Dashboard
 
-Banking Risk and Performance Analytics Dashboard
-This project presents a comprehensive business intelligence solution developed using Power BI, supported by foundational data analysis (EDA) using Python/Jupyter, to provide insights into banking operations, focusing primarily on customer risk and financial performance metrics.
+This project presents a comprehensive Business Intelligence (BI) solution developed using Power BI and supported by foundational data analysis (EDA) to provide data-driven insights into banking operations, focusing on customer risk and financial performance metrics. The core objective is to apply data analytics to risk management by assessing customer profiles to minimize lending losses.
+Project Overview
 
-
-1. Project Goal & Solution
-Component	Detail
-Problem	
-To develop a basic understanding of risk analytics in banking and financial services and understand how data is used to minimize the risk of losing money while lending to customers.
-
-Solution	
-A Power BI dashboard was created to facilitate data-driven lending decisions. The dashboard assesses an applicant's profile to determine the likelihood of loan repayment, thus helping to minimize risk.
+****Problem: To develop an understanding of risk analytics and how data is used to minimize the risk of losing money while lending to customers.
 
 
-Export to Sheets
-2. Data Structure and Preparation
-The analysis is built upon a database containing information about bank details and various client details, linked across multiple tables.
+
+Solution: A Power BI dashboard was created to evaluate applicant profiles to approve loans when the applicant is likely to repay, thus minimizing the risk of loss.
 
 
-Data Tables 
+Data Source: The project uses a customer dataset comprising multiple interlinked tables, including Client-Banking, Banking Relationship, Gender, Investment Advisor, and Period.
 
-Banking Relationship
+Data Preparation and Key Measures
+To enable deep segmentation and risk analysis, several calculated columns and Key Performance Indicators (KPIs) were defined:
 
-Client-Banking
 
-Gender
+Feature Engineering: New categorical features were created in the source data, including Engagement Timeframe and Income Band (categorizing income into Low, Mid, and High), to segment the customer base. The client's time with the bank was calculated as 
 
-Investment Advisor
 
-Period
+Engagement Days.
 
-Key Calculated Features (DAX/M-Language)
-To enable deep segmentation and risk analysis, several calculated columns were added to the dataset:
 
+
+Total Loan: Calculated as the sum of Bank Loan, Business Lending, and Credit Cards Balance.
+
+
+Total Deposit: Calculated as the sum of Bank Deposit, Savings Account, Foreign Currency Account, and Checking Accounts.
+
+
+Total Fees: Calculated using the SUMX function over the total loan amount multiplied by the calculated Processing Fees.
+
+Key Analytical Findings and Risk Insights
+The combined analysis from the EDA and the dashboard visuals reveals critical business and risk intelligence:
+
+
+Favorable Risk Correlation: The correlation analysis is a key risk finding, showing a negative correlation (≈−0.19) between Estimated Income and Risk Weighting. This indicates that 
+
+higher-income customers are associated with lower credit risk, which is a positive signal for the bank. The majority of clients fall into the 
+
+
+lowest risk tiers (Risk Weighting 1 and 2).
+
+
+Customer Segmentation: The largest segment is European clients and clients within the Mid-Income Band.
+
+
+
+Lending Focus: Business Lending is a significant part of the portfolio, with the average Business Lending amount (≈$867K) exceeding the average Bank Loan amount (≈$591K).
+
+
+Acquisition Signal: The highest volume of loans and deposits is concentrated among clients with less than 1 Year of engagement, which requires monitoring as these are newer relationships.
+
+Strategic Implications
+The dashboard provides a foundation for future strategic actions and insights:
+
+
+Competitive Strategy: The analysis helps identify which type of bank has more clients (e.g., Private Banks), allowing other segments to build strategies to increase their clients.
+
+
+Lending Prioritization: Managers can easily determine which nationality has the highest bank loans and which income bands contribute most to the portfolio.
+
+
+Comprehensive Overview: The report gives information about various types of amounts involved in different types of accounts by investors.
 
 Engagement Days: Calculated the difference in days between the Joined Bank date and TODAY().
 
