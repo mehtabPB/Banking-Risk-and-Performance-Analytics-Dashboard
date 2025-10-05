@@ -12,6 +12,9 @@ To enable deep segmentation and risk analysis, several calculated columns and Ke
 
 Feature Engineering: New categorical features were created in the source data, including Engagement Timeframe and Income Band (categorizing income into Low, Mid, and High), to segment the customer base. The client's time with the bank was calculated as Engagement Days.
 
+<img width="1270" height="715" alt="BI 1" src="https://github.com/user-attachments/assets/71c721d2-1445-4a1f-beed-90005d9c4a62" />
+<img width="1287" height="712" alt="b2" src="https://github.com/user-attachments/assets/8745635d-a0cf-4165-a2d3-162985271aaf" />
+<img width="1278" height="718" alt="b3" src="https://github.com/user-attachments/assets/3b1f9722-b98c-4573-a025-b6145779412c" />
 
 
 Total Loan: Calculated as the sum of Bank Loan, Business Lending, and Credit Cards Balance.
@@ -85,6 +88,10 @@ Dominant Nationality: The largest customer segment is European (1309 clients), f
 Income Distribution (Univariate): The majority of the customer base falls in the Mid income band (1517 clients) and Low income band (1027 clients).
 Risk Profile: The customer base is heavily skewed towards lower risk (Risk Weighting 1 and 2 account for ≈68.6% of clients), indicating a relatively healthy portfolio.
 Relationship Focus: The most common Banking Relationship (BRId 3) accounts for 1352 clients, suggesting a core focus in either the Retail or Private Bank segment.
+<img width="1760" height="702" alt="E1" src="https://github.com/user-attachments/assets/52dcdda0-3600-4e5f-abf9-64b64329034c" />
+<img width="807" height="817" alt="E3" src="https://github.com/user-attachments/assets/e5af1758-4ccb-4236-9071-d8ed304b4c98" />
+
+
 
 B. Financial Health and Risk Metrics
 
@@ -92,6 +99,8 @@ Lending Focus: The average Business Lending (≈$867K) is significantly higher t
 Wealth & Risk Correlation (Key Risk Finding): A crucial finding from the correlation analysis (heatmap) is the weak negative correlation between Estimated Income and Risk Weighting (≈−0.19). This is a positive indicator for the bank: 
 higher-income customers tend to be assigned lower risk weightings.
 Product Usage: There is a high correlation (≈0.90) between Bank Deposits and Checking Accounts, indicating intertwined transactional and savings behavior.
+<img width="1066" height="523" alt="E2" src="https://github.com/user-attachments/assets/b91133e1-2863-42cc-a7df-c22ed71e2508" />
+
 
 C. Segmented Performance Example (Private Bank - Female)
 The dashboard breakdown for the "Private Bank - Female" segment shows:
