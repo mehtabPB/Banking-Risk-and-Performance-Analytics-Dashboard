@@ -1,8 +1,8 @@
 ## Banking-Risk-and-Performance-Analytics-Dashboard
 
 This project presents a comprehensive Business Intelligence (BI) solution developed using Power BI and supported by foundational data analysis (EDA) to provide data-driven insights into banking operations, focusing on customer risk and financial performance metrics. The core objective is to apply data analytics to risk management by assessing customer profiles to minimize lending losses.
-Project Overview
 
+Project Overview
 Problem: To develop an understanding of risk analytics and how data is used to minimize the risk of losing money while lending to customers.
 Solution: A Power BI dashboard was created to evaluate applicant profiles to approve loans when the applicant is likely to repay, thus minimizing the risk of loss.
 Data Source: The project uses a customer dataset comprising multiple interlinked tables, including Client-Banking, Banking Relationship, Gender, Investment Advisor, and Period.
