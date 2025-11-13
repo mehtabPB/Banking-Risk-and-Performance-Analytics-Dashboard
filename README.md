@@ -115,4 +115,4 @@ Top Contributors: European clients provide the largest share of both loans ($4.9
 The dashboard empowers managers to make informed decisions and strategize by:
 Risk Mitigation: Assessing an applicant's profile to minimize the risk of financial loss before approving a loan.
 Market Strategy: Identifying successful business models (e.g., Private Banks having more clients) to help other segments build strategies.
-Performance Tracking: Providing detailed insights on loan distribution, fee calculation, and deposit composition across investor types and nationalities.
+Performance Tracking: Providing detailed insights on loan distribution, fee calculation, and deposit composition across investor types and nationalities...
